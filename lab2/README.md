@@ -24,16 +24,6 @@ Vous pouvez maintenant uploader votre image sur votre carte SD et lancer votre r
 
 > $ dd if=MonImage.rootfs.rpi-sdimg of=/dev/sdb bs=4M
 
-# Compte rendu
-
-Pour rendre votre travail, commencer par créer une nouvelle branche dans notre git.
-
-> cd ~/bachelor-embedded-linux
-> git checkout -b nom_prénom-lab2
-
-Faites vos modifications dans cette nouvelle branches, et envoyer les modifications via git. Attention, vous ne devez pas utiliser la fonction merge!
-Il y a plusieurs façon de faire ce TP, si je vois des copier-coller du travail de vos camarades ou d'un projet sur internet -> 0/20!
-
 N'oubliez pas d'incorporer tout votre travail, cela inclut les fichiers de configuration du dossier buuild. Ainsi que le résultat de votre compilation: u-boot, image linux.
 Vous trouverez le résultat de votre compilation dans le dossier tmp/deploy/images/raspberrypi4/
 L'image à le suffix rootfs.rpi-sdimg
