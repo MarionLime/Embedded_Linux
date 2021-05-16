@@ -1,9 +1,9 @@
 DESCRIPTION = "Hello Ynov programme"
-LICENSE = "" # "Choose wisely" Monty Python, vous connaissez la référence ou non!
-LIC_FILES_CHKSUM = "file://" # Faites vos recherches et remplissez cette variable
+LICENSE = "COPYING.MIT" # "Choose wisely" Monty Python, vous connaissez la référence ou non!
+LIC_FILES_CHKSUM = "/home/user/Embedded_Linux/lab2/meta-ynov-rpi4/COPYING.MIT" # Faites vos recherches et remplissez cette variable
 
 # Rajouter le lien vers votre fichier
-SRC_URI = ""
+SRC_URI = "meta-ynov-rpi4/recipe-ynov/hello-world/files/hello.c"
 
 S = "${WORKDIR}"
 
