@@ -16,15 +16,4 @@ Going through various stages:
 - Writing the program in "Hello.C": "Hello Ynov Campus! Your Yocto recipe is functional! :)"
 - Addition of the recipe in your "ynov-rpi4-image.bb"
 - Launch of the image build: $ bitbake core-image-minimal
-
-
-# Uploader votre image
-
-Vous pouvez maintenant uploader votre image sur votre carte SD et lancer votre raspberry pi!
-
-> $ dd if=MonImage.rootfs.rpi-sdimg of=/dev/sdb bs=4M
-
-N'oubliez pas d'incorporer tout votre travail, cela inclut les fichiers de configuration du dossier buuild. Ainsi que le résultat de votre compilation: u-boot, image linux.
-Vous trouverez le résultat de votre compilation dans le dossier tmp/deploy/images/raspberrypi4/
-L'image à le suffix rootfs.rpi-sdimg
-
+- download your image to your SD card and launch your raspberry pi
