@@ -12,6 +12,3 @@ These first two projects were carried out using the git of our trainer in Linux-
 Yassine ELMERNISSI.
 
 https://github.com/yassine-elmernissi/bachelor-embedded-linux.git
-
-- A personal project(Router):
-The creation of a wifi router intended to run on a Raspberry Pi 3
